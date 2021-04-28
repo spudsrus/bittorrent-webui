@@ -4,9 +4,10 @@
     <em:id>BitTorrent_WebUI_2@firefox.alexisbrunet.com</em:id>
     <em:type>2</em:type>
     <em:name>BitTorrent WebUI+</em:name>
-    <em:version>0.2.3.0</em:version>
+    <em:version>0.2.3.1</em:version>
     <em:creator>Alexis Brunet</em:creator>
     <em:contributor>Grant Brunton</em:contributor>
+    <em:contributor>Spudsrus</em:contributor>
     <em:description>Automatically upload .torrent files to your favorite BitTorrent client's Web Interface.</em:description>
     <!--em:description>This Firefox extension allows you to simply click a download link for a torrent file and have it automatically uploaded to your Bit Torrent client through your preferred web interface. This is especially useful if you do a lot of browsing on a different computer than the one which is running your Bit Torrent client.
 
@@ -99,12 +100,12 @@ Updates:
     <em:optionsURL>chrome://bittorrent_webui/content/options.xul</em:optionsURL>
     <em:iconURL>chrome://bittorrent_webui/content/images/bittorrent_32.png</em:iconURL>
     <em:homepageURL>https://addons.mozilla.org/en-US/firefox/addon/bittorrent-webui-120685/</em:homepageURL>
-    <em:targetApplication>
-      <Description>
-        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- Firefox -->
-        <em:minVersion>2.0</em:minVersion>
-        <em:maxVersion>20.*</em:maxVersion>
-      </Description>
-    </em:targetApplication>
+		<em:targetApplication><!-- Pale Moon -->
+			<Description>
+				<em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
+				<em:minVersion>28.0</em:minVersion>
+				<em:maxVersion>29.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
   </Description>
 </RDF>
